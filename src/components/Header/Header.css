@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0 16px 24px;
+  height: 367px;
+  background-image: url("../../assets/IMG_3730.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 15%;
+}
+
+.ArtistaVerificado {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ArtistaVerificado p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+header h1 {
+  font-size: 96px;
+  font-weight: 900;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+header h1,
+header h2,
+header p {
+  margin: 0;
+}

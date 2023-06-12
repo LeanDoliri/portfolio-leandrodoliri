@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+
+  --color-accent: #22df6a;
+  --color-primaryText: #fff;
+  --color-secondaryText: #b3b3b3;
+  --nav-background: #000;
+  --main-background: #121212;
+  --card-background: #181818;
+  --hover-background: #282828;
+
+  color: var(--color-primaryText);
+  background-color: var(--main-background);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--color-primaryText);
+  text-decoration: none;
+}

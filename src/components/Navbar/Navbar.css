@@ -1,0 +1,45 @@
+nav {
+  background-color: var(--nav-background);
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.nav-banner {
+  padding: 24px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 24px;
+  margin: 0;
+}
+
+.nav-links-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--color-secondaryText);
+  transition: 500ms all;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.nav-links-link svg {
+  transition: 500ms all;
+}
+
+.nav-links-link:hover {
+  color: var(--color-primaryText);
+}
+
+.nav-links-link:hover svg {
+  fill: none;
+  stroke: var(--color-primaryText);
+}

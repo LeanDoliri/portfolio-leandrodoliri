@@ -1,0 +1,25 @@
+.Card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: var(--card-background);
+  transition: 500ms all;
+}
+
+.Card:hover {
+  background-color: var(--hover-background);
+}
+
+.Card img {
+  width: 48px;
+  border-radius: 5px;
+}
+
+.Card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
