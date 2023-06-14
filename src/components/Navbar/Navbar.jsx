@@ -1,5 +1,4 @@
-import { AboutMeIcon, HomeIcon, ProyectsIcon, SkillsIcon, SpotifyIcon } from "../../assets/icons";
-import { SectionTitle } from "../SectionTitle/SectionTitle";
+import { AboutMeIcon, HomeIcon, ProyectsIcon, SkillsIcon, SpotifyIcon } from "../../assets/Icons";
 import "./Navbar.css";
 export function Navbar() {
   return (
