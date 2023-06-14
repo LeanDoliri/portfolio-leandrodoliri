@@ -1,4 +1,4 @@
-import { ArtistaVerificadoIcon } from "../../assets/icons";
+import { ArtistaVerificadoIcon } from "../../assets/Icons";
 import "./Header.css";
 
 export function Header() {
