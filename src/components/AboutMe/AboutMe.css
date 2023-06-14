@@ -1,0 +1,75 @@
+@media only screen and (min-width: 600px) {
+  .AboutMe {
+    width: 55%;
+    border-radius: 8px;
+    transition: all 500ms;
+    height: 512px;
+    margin-bottom: 32px;
+  }
+
+  .AboutMe:hover {
+    box-shadow: 0px 5px 50px black;
+    scale: 1.01;
+  }
+
+  .AboutMe-img {
+    width: 100%;
+    height: 512px;
+    border-radius: 8px;
+    background-image: url("../../assets/aboutme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    display: flex;
+    align-items: end;
+  }
+
+  .AboutMe-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+  }
+
+  .AboutMe h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 40px;
+  }
+
+  .AboutMe h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0 40px;
+  }
+
+  .AboutMe-txt {
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 8px 40px;
+  }
+
+  .AboutMe-moreTxt {
+    font-size: 0;
+    max-height: 0px;
+    transition: 0.25s ease;
+  }
+
+  .AboutMe:hover .AboutMe-moreTxt {
+    font-size: inherit;
+    max-height: 999rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .AboutMe {
+    width: 100%;
+  }
+
+  .AboutMe-img {
+    background: none;
+  }
+}

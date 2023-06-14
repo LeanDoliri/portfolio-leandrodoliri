@@ -1,4 +1,5 @@
 import "./App.css";
+import { AboutMe } from "./components/AboutMe/AboutMe";
 import { Header } from "./components/Header/Header";
 import { ListOfProyectsCards } from "./components/ListOfProyectsCards/ListOfProyectsCards";
 import { ListOfSkillsCards } from "./components/ListOfSkillsCards/ListOfSkillsCards";
@@ -22,6 +23,7 @@ function App() {
           </section>
           <section>
             <SectionTitle txt={"Sobre mí"} />
+            <AboutMe />
           </section>
         </main>
         <footer>

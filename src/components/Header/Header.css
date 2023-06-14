@@ -3,7 +3,7 @@ header {
   flex-direction: column;
   justify-content: end;
   padding: 0 16px 24px;
-  height: 367px;
+  height: 365px;
   background-image: url("../../assets/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-  font-size: 96px;
+  font-size: 5.5rem;
   font-weight: 900;
 }
 
@@ -35,4 +35,16 @@ header h1,
 header h2,
 header p {
   margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    background-position: 70% 0%;
+    height: 180px;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
 }

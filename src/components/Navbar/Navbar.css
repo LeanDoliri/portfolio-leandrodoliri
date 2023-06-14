@@ -43,3 +43,9 @@ nav {
   fill: none;
   stroke: var(--color-primaryText);
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}

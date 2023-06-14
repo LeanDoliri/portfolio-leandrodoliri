@@ -5,7 +5,7 @@
   align-items: center;
   gap: 16px;
   padding: 16px;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: var(--card-background);
   transition: 500ms all;
   cursor: pointer;
