@@ -5,3 +5,9 @@
   width: 100%;
   margin-bottom: 32px;
 }
+
+@media only screen and (max-width: 600px) {
+  .ListOfSkillsCards {
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  }
+}

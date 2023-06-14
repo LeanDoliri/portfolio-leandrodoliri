@@ -15,11 +15,21 @@
 }
 
 .SkillCard img {
-  width: 48px;
+  width: 30%;
   border-radius: 8px;
 }
 
 .SkillCard-title {
   font-size: 16px;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .SkillCard {
+    gap: 8px;
+  }
+
+  .SkillCard img {
+    width: 20%;
+  }
 }
