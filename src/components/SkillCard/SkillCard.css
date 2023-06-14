@@ -1,4 +1,4 @@
-.Card {
+.SkillCard {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -10,16 +10,17 @@
   transition: 500ms all;
 }
 
-.Card:hover {
+.SkillCard:hover {
   background-color: var(--hover-background);
+  scale: 1.01;
 }
 
-.Card img {
+.SkillCard img {
   width: 48px;
   border-radius: 5px;
 }
 
-.Card-title {
+.SkillCard-title {
   font-size: 16px;
   font-weight: 600;
 }

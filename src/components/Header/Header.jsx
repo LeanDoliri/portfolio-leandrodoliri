@@ -4,7 +4,7 @@ import "./Header.css";
 export function Header() {
   return (
     <header>
-      <div className="ArtistaVerificado">
+      <div className="ArtistaVerificado" id="Inicio">
         <ArtistaVerificadoIcon />
         <p>Artista verificado</p>
       </div>

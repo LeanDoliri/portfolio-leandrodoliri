@@ -4,32 +4,32 @@ import "./Navbar.css";
 export function Navbar() {
   return (
     <nav>
-      <a href="" className="nav-banner">
+      <a href="#Inicio" className="nav-banner">
         <SpotifyIcon />
       </a>
       <ul className="nav-links">
         <li>
-          <a href="" className="nav-links-link">
+          <a href="#Inicio" className="nav-links-link">
             <HomeIcon />
-            <span>Home</span>
+            <span>Inicio</span>
           </a>
         </li>
         <li>
-          <a href="" className="nav-links-link">
+          <a href="#Skills" className="nav-links-link">
             <SkillsIcon />
             <span>Skills</span>
           </a>
         </li>
         <li>
-          <a href="" className="nav-links-link">
+          <a href="#Proyectos" className="nav-links-link">
             <ProyectsIcon />
-            <span>Proyects</span>
+            <span>Proyectos</span>
           </a>
         </li>
         <li>
-          <a href="" className="nav-links-link">
+          <a href="#SobreMi" className="nav-links-link">
             <AboutMeIcon />
-            <span>About me</span>
+            <span>Sobre mí</span>
           </a>
         </li>
       </ul>
