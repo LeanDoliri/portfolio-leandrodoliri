@@ -1,0 +1,28 @@
+.TopNavbar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 8px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.TopNavbar-btn {
+  display: flex;
+  align-items: center;
+  padding: 0px 32px;
+  margin: 0 32px;
+  border-radius: 9999px;
+  min-block-size: 48px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--nav-background);
+  background-color: var(--color-primaryText);
+}
+
+@media only screen and (max-width: 600px) {
+  .TopNavbar {
+    display: none;
+  }
+}

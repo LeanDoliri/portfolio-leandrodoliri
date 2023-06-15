@@ -7,12 +7,14 @@ import { ListOfSkillsCards } from "./components/ListOfSkillsCards/ListOfSkillsCa
 import { MainFooter } from "./components/MainFooter/MainFooter";
 import { Navbar } from "./components/Navbar/Navbar";
 import { SectionTitle } from "./components/SectionTitle/SectionTitle";
+import { TopNavbar } from "./components/TopNavbar/TopNavbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <div>
+        <TopNavbar />
         <Header />
         <main>
           <section>
