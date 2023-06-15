@@ -44,7 +44,7 @@ export function GetInTouch() {
         <li>
           <a
             href={CV}
-            download
+            target="_blank"
             className="GetInTouch-icon"
           >
             <img src={CVIcon} alt="github" />

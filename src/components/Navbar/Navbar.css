@@ -1,5 +1,6 @@
 nav {
   background-color: var(--nav-background);
+  max-width: 180px;
   height: 100vh;
   display: grid;
   grid-template-rows: 10% 80% 10%;
@@ -42,6 +43,38 @@ nav {
 .nav-links-link:hover svg {
   fill: none;
   stroke: var(--color-primaryText);
+}
+
+.nav-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-footer p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.nav-footer-socialIcons {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.nav-footer-socialIcons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 999px;
+}
+
+.nav-footer-socialIcons a img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {

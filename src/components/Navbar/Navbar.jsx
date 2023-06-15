@@ -1,5 +1,14 @@
-import { AboutMeIcon, HomeIcon, ProjectsIcon, SkillsIcon, SpotifyIcon } from "../../assets/Icons";
+import {
+  AboutMeIcon,
+  HomeIcon,
+  ProjectsIcon,
+  SkillsIcon,
+  SpotifyIcon,
+} from "../../assets/Icons";
+import LinkedInIcon from "../../assets/social-media/linkedin-svgrepo-com.svg";
+import GithubIcon from "../../assets/social-media/github-svgrepo-com.svg";
 import "./Navbar.css";
+
 export function Navbar() {
   return (
     <nav>
@@ -32,8 +41,16 @@ export function Navbar() {
           </a>
         </li>
       </ul>
-      <footer>
+      <footer className="nav-footer">
         <p>Contact</p>
+        <div className="nav-footer-socialIcons">
+          <a href="https://www.linkedin.com/in/leandro-doliri/" target="_blank">
+            <img src={LinkedInIcon} alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/LeanDoliri" target="_blank">
+            <img src={GithubIcon} alt="Github" />
+          </a>
+        </div>
       </footer>
     </nav>
   );
