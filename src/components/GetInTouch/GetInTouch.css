@@ -43,3 +43,9 @@
 .GetInTouch-icon:hover {
   background-color: var(--hover-background);
 }
+
+@media only screen and (max-width: 600px) {
+  .GetInTouch {
+    width: 100%;
+  }
+}

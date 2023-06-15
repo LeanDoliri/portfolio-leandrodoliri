@@ -11,12 +11,6 @@
   cursor: pointer;
 }
 
-.ProyectCard:hover {
-  background-color: var(--hover-background);
-  scale: 1.01;
-  box-shadow: 0px 5px 50px black;
-}
-
 .ProyectCard-thumbnail {
   width: 100%;
   border-radius: 5px;
@@ -63,13 +57,21 @@
   width: 100%;
 }
 
-.ProyectCard:hover .ProyectCard-repo,
-.ProyectCard:hover .ProyectCard-play {
-  display: flex;
-}
+@media only screen and (min-width: 600px) {
+  .ProyectCard:hover {
+    background-color: var(--hover-background);
+    scale: 1.01;
+    box-shadow: 0px 5px 50px black;
+  }
 
-.ProyectCard:hover .ProyectCard-repo:hover,
-.ProyectCard:hover .ProyectCard-play:hover {
-  scale: 1.05;
-  transform: translate(0, -5px);
+  .ProyectCard:hover .ProyectCard-repo,
+  .ProyectCard:hover .ProyectCard-play {
+    display: flex;
+  }
+
+  .ProyectCard:hover .ProyectCard-repo:hover,
+  .ProyectCard:hover .ProyectCard-play:hover {
+    scale: 1.05;
+    transform: translate(0, -5px);
+  }
 }
