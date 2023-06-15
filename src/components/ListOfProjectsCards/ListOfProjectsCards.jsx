@@ -1,35 +1,35 @@
-import "./ListOfProyectsCards.css";
-import TaskAppThumbnail from "../../assets/proyects/task-app.png";
-import FavGifThumbnail from "../../assets/proyects/favgif-app.png";
-import TaTeTiThumbnail from "../../assets/proyects/ta-te-ti-app.png";
-import WebAcruThumbnail from "../../assets/proyects/web-acru.png";
-import { ProyectCard } from "../ProyectCard/ProyectCard";
+import "./ListOfProjectsCards.css";
+import TaskAppThumbnail from "../../assets/projects/task-app.png";
+import FavGifThumbnail from "../../assets/projects/favgif-app.png";
+import TaTeTiThumbnail from "../../assets/projects/ta-te-ti-app.png";
+import WebAcruThumbnail from "../../assets/projects/web-acru.png";
+import { ProjectCard } from "../ProjectCard/ProjectCard";
 
-export function ListOfProyectsCards() {
+export function ListOfProjectsCards() {
   return (
-    <div className="ListOfProyectsCards" id="Proyects">
-      <ProyectCard
+    <div className="ListOfProjectsCards" id="Projects">
+      <ProjectCard
         img={FavGifThumbnail}
         title="FavGif"
         description="App para buscar y guardar gifs."
         link="https://favgif-app-leandrodoliri.netlify.app/"
         repo="https://github.com/LeanDoliri/favGif-app"
       />
-      <ProyectCard
+      <ProjectCard
         img={TaskAppThumbnail}
         title="TaskApp"
         description="To-do app desarrollada con React."
         link="https://tasks-app-leandrodoliri.netlify.app/"
         repo="https://github.com/LeanDoliri/tasks-app"
       />
-      <ProyectCard
+      <ProjectCard
         img={TaTeTiThumbnail}
         title="TaTeTi"
         description="Tic-tac-toe juego desarrollado con React."
         link="https://ta-te-ti-app-leandrodoliri.netlify.app/"
         repo="https://github.com/LeanDoliri/ta-te-ti-app"
       />
-      <ProyectCard
+      <ProjectCard
         img={WebAcruThumbnail}
         title="Acru"
         description="Proyecto ficticio de página de artista."

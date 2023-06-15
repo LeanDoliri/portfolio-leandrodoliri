@@ -1,4 +1,4 @@
-.ProyectCard {
+.ProjectCard {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -11,26 +11,26 @@
   cursor: pointer;
 }
 
-.ProyectCard-thumbnail {
+.ProjectCard-thumbnail {
   width: 100%;
   border-radius: 5px;
 }
 
-.ProyectCard-title {
+.ProjectCard-title {
   width: 100%;
   font-size: 16px;
   font-weight: 600;
 }
 
-.ProyectCard-description {
+.ProjectCard-description {
   width: 100%;
   color: var(--color-secondaryText);
   font-size: 16px;
   font-weight: 400;
 }
 
-.ProyectCard-repo,
-.ProyectCard-play {
+.ProjectCard-repo,
+.ProjectCard-play {
   display: none;
   align-items: center;
   justify-content: center;
@@ -45,32 +45,32 @@
   box-shadow: 0px 5px 25px black;
 }
 
-.ProyectCard-repo {
+.ProjectCard-repo {
   left: 6%;
 }
 
-.ProyectCard-play {
+.ProjectCard-play {
   right: 6%;
 }
 
-.ProyectCard-repo img {
+.ProjectCard-repo img {
   width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
-  .ProyectCard:hover {
+  .ProjectCard:hover {
     background-color: var(--hover-background);
     scale: 1.01;
     box-shadow: 0px 5px 50px black;
   }
 
-  .ProyectCard:hover .ProyectCard-repo,
-  .ProyectCard:hover .ProyectCard-play {
+  .ProjectCard:hover .ProjectCard-repo,
+  .ProjectCard:hover .ProjectCard-play {
     display: flex;
   }
 
-  .ProyectCard:hover .ProyectCard-repo:hover,
-  .ProyectCard:hover .ProyectCard-play:hover {
+  .ProjectCard:hover .ProjectCard-repo:hover,
+  .ProjectCard:hover .ProjectCard-play:hover {
     scale: 1.05;
     transform: translate(0, -5px);
   }

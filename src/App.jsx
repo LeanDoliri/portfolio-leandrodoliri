@@ -2,7 +2,7 @@ import "./App.css";
 import { AboutMe } from "./components/AboutMe/AboutMe";
 import { GetInTouch } from "./components/GetInTouch/GetInTouch";
 import { Header } from "./components/Header/Header";
-import { ListOfProyectsCards } from "./components/ListOfProyectsCards/ListOfProyectsCards";
+import { ListOfProjectsCards } from "./components/ListOfProjectsCards/ListOfProjectsCards";
 import { ListOfSkillsCards } from "./components/ListOfSkillsCards/ListOfSkillsCards";
 import { MainFooter } from "./components/MainFooter/MainFooter";
 import { Navbar } from "./components/Navbar/Navbar";
@@ -20,8 +20,8 @@ function App() {
             <ListOfSkillsCards />
           </section>
           <section>
-            <SectionTitle txt={"Proyects"} />
-            <ListOfProyectsCards />
+            <SectionTitle txt={"Projects"} />
+            <ListOfProjectsCards />
           </section>
           <section className="PersonalSection">
             <AboutMe />
