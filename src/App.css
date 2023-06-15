@@ -20,6 +20,12 @@ main::-webkit-scrollbar {
   gap: 32px;
 }
 
+@media only screen and (max-width: 600px) {
+  .PersonalSection {
+    flex-direction: column;
+  }
+}
+
 footer {
   padding: 0 32px;
 }
