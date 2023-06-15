@@ -1,10 +1,13 @@
 @media only screen and (min-width: 600px) {
-  .AboutMe {
+  .AboutMeSection {
     width: 55%;
+  }
+
+  .AboutMe {
+    width: 100%;
     border-radius: 8px;
     transition: all 500ms;
     height: 512px;
-    margin-bottom: 32px;
   }
 
   .AboutMe:hover {
@@ -29,8 +32,13 @@
     flex-direction: column;
     justify-content: end;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.25);
     border-radius: 8px;
+    transition: 500ms all;
+  }
+
+  .AboutMe:hover .AboutMe-background {
+    background-color: rgba(0, 0, 0, 0.75);
   }
 
   .AboutMe h1 {

@@ -11,9 +11,15 @@ main {
 }
 
 main::-webkit-scrollbar {
- display: none;
+  display: none;
+}
+
+.PersonalSection {
+  display: flex;
+  margin-bottom: 32px;
+  gap: 32px;
 }
 
 footer {
-  padding: 0 24px; 
+  padding: 0 32px;
 }

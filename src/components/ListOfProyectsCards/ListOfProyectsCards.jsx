@@ -7,7 +7,7 @@ import { ProyectCard } from "../ProyectCard/ProyectCard";
 
 export function ListOfProyectsCards() {
   return (
-    <div className="ListOfProyectsCards" id="Proyectos">
+    <div className="ListOfProyectsCards" id="Proyects">
       <ProyectCard
         img={FavGifThumbnail}
         title="FavGif"

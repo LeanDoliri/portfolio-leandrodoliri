@@ -1,0 +1,9 @@
+.MainFooter {
+  border-top: 1px solid var(--color-secondaryText);
+  margin-bottom: 32px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--color-secondaryText);
+}

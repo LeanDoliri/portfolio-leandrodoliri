@@ -1,0 +1,45 @@
+.GetInTouch {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.GetInTouch h4 {
+  font-size: 1.2rem;
+}
+
+.GetInTouch-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+  list-style: none;
+}
+
+.GetInTouch-icon {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 500ms;
+}
+
+.GetInTouch-icon img {
+  width: 10%;
+  background: var(--color-primaryText);
+  padding: 8px;
+  border-radius: 9px;
+}
+
+.GetInTouch-icon:hover {
+  background-color: var(--hover-background);
+}

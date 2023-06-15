@@ -1,8 +1,10 @@
 import "./App.css";
 import { AboutMe } from "./components/AboutMe/AboutMe";
+import { GetInTouch } from "./components/GetInTouch/GetInTouch";
 import { Header } from "./components/Header/Header";
 import { ListOfProyectsCards } from "./components/ListOfProyectsCards/ListOfProyectsCards";
 import { ListOfSkillsCards } from "./components/ListOfSkillsCards/ListOfSkillsCards";
+import { MainFooter } from "./components/MainFooter/MainFooter";
 import { Navbar } from "./components/Navbar/Navbar";
 import { SectionTitle } from "./components/SectionTitle/SectionTitle";
 
@@ -18,17 +20,16 @@ function App() {
             <ListOfSkillsCards />
           </section>
           <section>
-            <SectionTitle txt={"Proyectos"} />
+            <SectionTitle txt={"Proyects"} />
             <ListOfProyectsCards />
           </section>
-          <section>
-            <SectionTitle txt={"Sobre mí"} />
+          <section className="PersonalSection">
             <AboutMe />
+            <GetInTouch />
           </section>
         </main>
         <footer>
-            <hr />
-            <p>Contact</p>
+          <MainFooter />
         </footer>
       </div>
     </div>

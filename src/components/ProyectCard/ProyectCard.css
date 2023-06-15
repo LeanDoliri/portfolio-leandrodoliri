@@ -45,9 +45,9 @@
   padding: 8px;
   border-radius: 500px;
   position: absolute;
-  bottom: 29%;
+  top: 53%;
   background: var(--color-accent);
-  transition: 500ms ease-in-out;
+  transition: 500ms all;
   box-shadow: 0px 5px 25px black;
 }
 

@@ -1,8 +1,7 @@
-header {
+.Header {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  padding: 0 16px 24px;
   height: 365px;
   background-image: url("../../assets/header-background.jpg");
   background-repeat: no-repeat;
@@ -10,40 +9,60 @@ header {
   background-position: 0 15%;
 }
 
-.ArtistaVerificado {
+.Header-filter {
   display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  padding-bottom: 24px;
+}
+
+.Header-artistaVerificado {
+  width: max-content;
+  display: flex;
+  justify-content: start;
   align-items: center;
   gap: 10px;
+  padding: 0 16px;
 }
 
-.ArtistaVerificado p {
+.Header-artistaVerificado svg {
+  width: 15%;
+}
+
+.Header-artistaVerificado p {
   font-size: 14px;
   font-weight: 400;
+  white-space: nowrap;
 }
 
-header h1 {
+.Header h1 {
   font-size: 5.5rem;
   font-weight: 900;
+  padding: 0 16px;
 }
 
-header h2 {
+.Header h2 {
   font-size: 24px;
   font-weight: 800;
+  padding: 0 16px;
 }
 
-header h1,
-header h2,
-header p {
+.Header h1,
+.Header h2,
+.Header p {
   margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
-  header {
+  .Header {
     background-position: 70% 0%;
     height: 180px;
   }
 
-  header h1 {
+  .Header h1 {
     font-size: 2.5rem;
     font-weight: 900;
   }

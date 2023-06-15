@@ -8,9 +8,9 @@ export function Navbar() {
       </a>
       <ul className="nav-links">
         <li>
-          <a href="#Inicio" className="nav-links-link">
+          <a href="#Home" className="nav-links-link">
             <HomeIcon />
-            <span>Inicio</span>
+            <span>Home</span>
           </a>
         </li>
         <li>
@@ -20,15 +20,15 @@ export function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#Proyectos" className="nav-links-link">
+          <a href="#Proyects" className="nav-links-link">
             <ProyectsIcon />
-            <span>Proyectos</span>
+            <span>Proyects</span>
           </a>
         </li>
         <li>
-          <a href="#SobreMi" className="nav-links-link">
+          <a href="#AboutMe" className="nav-links-link">
             <AboutMeIcon />
-            <span>Sobre mí</span>
+            <span>About me</span>
           </a>
         </li>
       </ul>
