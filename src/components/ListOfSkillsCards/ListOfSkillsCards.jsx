@@ -9,7 +9,7 @@ import MongoDBIcon from "../../assets/skills/mongo-svgrepo-com.svg";
 import NodeIcon from "../../assets/skills/node-svgrepo-com.svg";
 import ReactIcon from "../../assets/skills/react-svgrepo-com.svg";
 import SassIcon from "../../assets/skills/sass-svgrepo-com.svg";
-import SQLIcon from "../../assets/skills/sql-database-generic-svgrepo-com.svg";
+import MySQLIcon from "../../assets/skills/mysql-svgrepo-com.svg";
 import ViteIcon from "../../assets/skills/vite-svgrepo-com.svg";
 import WebpackIcon from "../../assets/skills/webpack-svgrepo-com.svg";
 import { SkillCard } from "../../components/SkillCard/SkillCard";
@@ -21,7 +21,7 @@ export function ListOfSkillsCards() {
       <SkillCard img={NodeIcon} title="Node Js" />
       <SkillCard img={ExpressIcon} title="Express" />
       <SkillCard img={MongoDBIcon} title="MongoDB" />
-      <SkillCard img={SQLIcon} title="SQL" />
+      <SkillCard img={MySQLIcon} title="MySQL" />
       <SkillCard img={ViteIcon} title="Vite" />
       <SkillCard img={WebpackIcon} title="Webpack" />
       <SkillCard img={JavaScriptIcon} title="JavaScript" />
