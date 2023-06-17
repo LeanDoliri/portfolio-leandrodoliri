@@ -16,7 +16,7 @@ main::-webkit-scrollbar {
 
 .PersonalSection {
   display: flex;
-  margin-bottom: 32px;
+  margin-bottom: 42px;
   gap: 32px;
 }
 

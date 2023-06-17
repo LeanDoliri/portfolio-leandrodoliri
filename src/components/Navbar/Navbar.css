@@ -28,7 +28,7 @@ nav {
   gap: 16px;
   color: var(--color-secondaryText);
   transition: 500ms all;
-  font-size: 13px;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 

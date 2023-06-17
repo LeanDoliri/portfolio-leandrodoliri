@@ -1,6 +1,6 @@
 @media only screen and (min-width: 600px) {
   .AboutMeSection {
-    width: 55%;
+    width: 65%;
   }
 
   .AboutMe {
@@ -48,7 +48,7 @@
   }
 
   .AboutMe h2 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 500;
     padding: 0 40px;
   }
