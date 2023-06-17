@@ -70,6 +70,11 @@ nav {
   padding: 8px;
   background-color: #fff;
   border-radius: 999px;
+  transition: all 500ms;
+}
+
+.nav-footer-socialIcons a:hover{
+  scale: 1.1;
 }
 
 .nav-footer-socialIcons a img {

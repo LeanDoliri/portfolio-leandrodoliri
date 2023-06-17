@@ -19,6 +19,11 @@
   font-weight: 700;
   color: var(--nav-background);
   background-color: var(--color-primaryText);
+  transition: all 500ms;
+}
+
+.TopNavbar-btn:hover {
+  scale: 1.05;
 }
 
 @media only screen and (max-width: 600px) {
