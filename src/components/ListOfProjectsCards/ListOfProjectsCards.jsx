@@ -17,7 +17,7 @@ export function ListOfProjectsCards() {
       />
       <ProjectCard
         img={TaskAppThumbnail}
-        title="TaskApp"
+        title="Tasks App"
         description="To-do app desarrollada con React."
         link="https://tasks-app-leandrodoliri.netlify.app/"
         repo="https://github.com/LeanDoliri/tasks-app"

@@ -21,7 +21,7 @@
 }
 
 .GetInTouch-icon {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -34,7 +34,7 @@
 }
 
 .GetInTouch-icon img {
-  width: 10%;
+  width: 5%;
   background: var(--color-primaryText);
   padding: 8px;
   border-radius: 9px;
