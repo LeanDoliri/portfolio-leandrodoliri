@@ -46,11 +46,11 @@
 }
 
 .ProjectCard-repo {
-  left: 6%;
+  left: 25px;
 }
 
 .ProjectCard-play {
-  right: 6%;
+  right: 25px;
 }
 
 .ProjectCard-repo img {
