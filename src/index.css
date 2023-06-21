@@ -16,6 +16,8 @@
 
   color: var(--color-primaryText);
   background-color: var(--main-background);
+
+  scroll-behavior: smooth;
 }
 
 body {

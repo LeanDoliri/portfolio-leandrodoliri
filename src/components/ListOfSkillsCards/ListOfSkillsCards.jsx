@@ -16,7 +16,7 @@ import { SkillCard } from "../../components/SkillCard/SkillCard";
 
 export function ListOfSkillsCards() {
   return (
-    <div className="ListOfSkillsCards" id="Skills">
+    <div className="ListOfSkillsCards">
       <SkillCard img={ReactIcon} title="React Js" />
       <SkillCard img={NodeIcon} title="Node Js" />
       <SkillCard img={ExpressIcon} title="Express" />

@@ -14,20 +14,24 @@ function App() {
     <div className="App">
       <Navbar />
       <div>
+        <a name="Home"></a>
         <TopNavbar />
         <Header />
         <main>
           <section>
+            <a name="Skills"></a>
             <SectionTitle txt={"Skills"} />
             <ListOfSkillsCards />
           </section>
           <section>
+            <a name="Projects"></a>
             <SectionTitle txt={"Projects"} />
             <ListOfProjectsCards />
           </section>
           <section className="PersonalSection">
-            <AboutMe />
-            <GetInTouch />
+            <a name="AboutMe"></a>
+              <AboutMe />
+              <GetInTouch />
           </section>
         </main>
         <footer>

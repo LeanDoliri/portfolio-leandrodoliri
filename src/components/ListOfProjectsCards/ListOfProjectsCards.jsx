@@ -7,7 +7,7 @@ import { ProjectCard } from "../ProjectCard/ProjectCard";
 
 export function ListOfProjectsCards() {
   return (
-    <div className="ListOfProjectsCards" id="Projects">
+    <div className="ListOfProjectsCards">
       <ProjectCard
         img={FavGifThumbnail}
         title="FavGif"

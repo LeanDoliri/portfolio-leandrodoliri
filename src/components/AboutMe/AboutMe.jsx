@@ -5,7 +5,7 @@ export function AboutMe() {
   return (
     <div className="AboutMeSection">
       <SectionTitle txt={"About me"} />
-      <div className="AboutMe" id="AboutMe">
+      <div className="AboutMe">
         <div className="AboutMe-img">
           <div className="AboutMe-background">
             <h1>Leandro Doliri</h1>
