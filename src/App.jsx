@@ -29,9 +29,8 @@ function App() {
             <ListOfProjectsCards />
           </section>
           <section className="PersonalSection">
-            <a name="AboutMe"></a>
-              <AboutMe />
-              <GetInTouch />
+            <AboutMe />
+            <GetInTouch />
           </section>
         </main>
         <footer>

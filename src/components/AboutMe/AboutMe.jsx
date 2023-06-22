@@ -4,6 +4,7 @@ import "./AboutMe.css";
 export function AboutMe() {
   return (
     <div className="AboutMeSection">
+      <a name="AboutMe"></a>
       <SectionTitle txt={"About me"} />
       <div className="AboutMe">
         <div className="AboutMe-img">
@@ -13,7 +14,7 @@ export function AboutMe() {
             <div className="AboutMe-txt">
               <p>
                 Soy una persona apasionada por la tecnología y el desarrollo
-                web, con experiencia en diseño sonoro y operación de sonido en
+                web. Tengo experiencia en diseño sonoro y operación de sonido en
                 artes escénicas. Actualmente, estoy enfocado en mi carrera como
                 programador Full Stack, y he adquirido habilidades en
                 herramientas como JavaScript, React, Node.js, Express, MongoDB,
@@ -23,7 +24,7 @@ export function AboutMe() {
               <div className="AboutMe-moreTxt">
                 <p>
                   Me encanta la creatividad y la resolución de problemas, y he
-                  encontrado en la programación una forma de combinar estas dos
+                  encontrado en la programación una forma de fusionar estas dos
                   pasiones. Creo que la combinación de mi experiencia en el arte
                   y mi interés en la tecnología me da una perspectiva única y
                   valiosa en cualquier proyecto en el que me involucre. <br />
