@@ -5,3 +5,18 @@
   width: 100%;
   margin-bottom: 42px;
 }
+
+.ProjectsSkills {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  gap: 8px;
+}
+
+.ProjectsSkills li {
+  width: 10%;
+}
+
+.ProjectsSkills li img {
+  width: 100%;
+}

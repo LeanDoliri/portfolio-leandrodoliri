@@ -2,7 +2,14 @@ import "./ProjectCard.css";
 import GitHubIcon from "../../assets/social-media/github-svgrepo-com.svg";
 import { PlayIcon } from "../../assets/Icons";
 
-export function ProjectCard({ img, title, description, link, repo }) {
+export function ProjectCard({
+  children,
+  img,
+  title,
+  description,
+  link,
+  repo
+}) {
   return (
     <a href={link} target="_blank">
       <div className="ProjectCard">
@@ -17,6 +24,7 @@ export function ProjectCard({ img, title, description, link, repo }) {
         </div>
         <p className="ProjectCard-title">{title}</p>
         <p className="ProjectCard-description">{description}</p>
+        {children}
       </div>
     </a>
   );
