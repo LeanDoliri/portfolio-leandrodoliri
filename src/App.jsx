@@ -1,5 +1,6 @@
 import "./App.css";
 import { AboutMe } from "./components/AboutMe/AboutMe";
+import { FollowSection } from "./components/FollowSection/FollowSection";
 import { GetInTouch } from "./components/GetInTouch/GetInTouch";
 import { Header } from "./components/Header/Header";
 import { ListOfProjectsCards } from "./components/ListOfProjectsCards/ListOfProjectsCards";
@@ -18,6 +19,9 @@ function App() {
         <TopNavbar />
         <Header />
         <main>
+          <section>
+            <FollowSection />
+          </section>
           <section>
             <a name="Skills"></a>
             <SectionTitle txt={"Skills"} />
