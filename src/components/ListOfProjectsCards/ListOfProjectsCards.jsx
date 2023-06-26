@@ -31,7 +31,6 @@ export function ListOfProjectsCards() {
         <ul className="ProjectsSkills">
           <li><img src={ReactIcon} alt="ReactIcon" /></li>
           <li><img src={JavaScriptIcon} alt="JavaScriptIcon" /></li>
-          <li><img src={BootstrapIcon} alt="BootstrapIcon" /></li>
           <li><img src={CssIcon} alt="CssIcon" /></li>
           <li><img src={HTMLIcon} alt="HTMLIcon" /></li>
           <li><img src={ViteIcon} alt="ViteIcon" /></li>
