@@ -8,6 +8,7 @@ import reactJsThumbnail from "../../assets/certificates/reactJs-certificado.png"
 import programacionBackendThumbnail from "../../assets/certificates/programacionBackendo-certificado.png";
 import responsiveWebDesignThumbnail from "../../assets/certificates/responsiveWebDesign-certificado.png";
 import gitThumbnail from "../../assets/certificates/git-certificado.jpg";
+import githubThumbnail from "../../assets/certificates/github-certificado.jpg";
 
 export function ListOfCertificates() {
   return (
@@ -45,6 +46,12 @@ export function ListOfCertificates() {
       <CertificateCard
         img={gitThumbnail}
         title="Git"
+        institution="CódigoFacilito"
+        link="https://codigofacilito.com/usuarios/leandoliri"
+      />
+      <CertificateCard
+        img={githubThumbnail}
+        title="Github"
         institution="CódigoFacilito"
         link="https://codigofacilito.com/usuarios/leandoliri"
       />
