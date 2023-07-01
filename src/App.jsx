@@ -3,6 +3,7 @@ import { AboutMe } from "./components/AboutMe/AboutMe";
 import { FollowSection } from "./components/FollowSection/FollowSection";
 import { GetInTouch } from "./components/GetInTouch/GetInTouch";
 import { Header } from "./components/Header/Header";
+import { ListOfCertificates } from "./components/ListOfCertificates/ListOfCertificates";
 import { ListOfProjectsCards } from "./components/ListOfProjectsCards/ListOfProjectsCards";
 import { ListOfSkillsCards } from "./components/ListOfSkillsCards/ListOfSkillsCards";
 import { MainFooter } from "./components/MainFooter/MainFooter";
@@ -26,6 +27,11 @@ function App() {
             <a name="Skills"></a>
             <SectionTitle txt={"Skills"} />
             <ListOfSkillsCards />
+          </section>
+          <section>
+            <a name="Certificates"></a>
+            <SectionTitle txt={"Certificates"} />
+            <ListOfCertificates />
           </section>
           <section>
             <a name="Projects"></a>

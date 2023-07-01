@@ -1,0 +1,13 @@
+.ListOfCertificates {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+    gap: 24px 24px;
+    width: 100%;
+    margin-bottom: 42px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .ListOfCertificates {
+      grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    }
+  }

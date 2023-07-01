@@ -6,17 +6,11 @@ import WebAcruThumbnail from "../../assets/projects/web-acru.png";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
 import BootstrapIcon from "../../assets/skills/bootstrap-svgrepo-com.svg";
 import CssIcon from "../../assets/skills/css-3-svgrepo-com.svg";
-import ExpressIcon from "../../assets/skills/express-svgrepo-com.svg";
-import GitIcon from "../../assets/skills/git-svgrepo-com.svg";
 import HTMLIcon from "../../assets/skills/html-5-svgrepo-com.svg";
 import JavaScriptIcon from "../../assets/skills/javascript-svgrepo-com.svg";
-import MongoDBIcon from "../../assets/skills/mongo-svgrepo-com.svg";
-import NodeIcon from "../../assets/skills/node-svgrepo-com.svg";
 import ReactIcon from "../../assets/skills/react-svgrepo-com.svg";
 import SassIcon from "../../assets/skills/sass-svgrepo-com.svg";
-import MySQLIcon from "../../assets/skills/mysql-svgrepo-com.svg";
 import ViteIcon from "../../assets/skills/vite-svgrepo-com.svg";
-import WebpackIcon from "../../assets/skills/webpack-svgrepo-com.svg";
 
 export function ListOfProjectsCards() {
   return (

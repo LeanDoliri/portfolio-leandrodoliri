@@ -1,5 +1,6 @@
 import {
   AboutMeIcon,
+  CertificatesIcon,
   HomeIcon,
   ProjectsIcon,
   SkillsIcon,
@@ -8,6 +9,34 @@ import {
 import LinkedInIcon from "../../assets/social-media/linkedin-svgrepo-com.svg";
 import GithubIcon from "../../assets/social-media/github-svgrepo-com.svg";
 import "./Navbar.css";
+
+const navLinks = [
+  {
+    section: "Home",
+    href: "Home",
+    icon: <HomeIcon />
+  },
+  {
+    section: "Skills",
+    href: "Skills",
+    icon: <SkillsIcon />
+  },
+  {
+    section: "Certificates",
+    href: "Certificates",
+    icon: <CertificatesIcon />
+  },
+  {
+    section: "Projects",
+    href: "Projects",
+    icon: <ProjectsIcon />
+  },
+  {
+    section: "AboutMe",
+    href: "AboutMe",
+    icon: <AboutMeIcon />
+  },
+];
 
 export function Navbar() {
   return (
@@ -26,6 +55,12 @@ export function Navbar() {
           <a href="#Skills" className="nav-links-link">
             <SkillsIcon />
             <span>Skills</span>
+          </a>
+        </li>
+        <li>
+          <a href="#Certificates" className="nav-links-link">
+            <CertificatesIcon />
+            <span>Certificates</span>
           </a>
         </li>
         <li>
