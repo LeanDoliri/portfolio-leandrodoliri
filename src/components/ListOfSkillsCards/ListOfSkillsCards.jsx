@@ -32,7 +32,7 @@ export function ListOfSkillsCards() {
       <SkillCard img={JavaScriptIcon} title="JavaScript" />
       <SkillCard img={jQueryIcon} title="jQuery" />
       <SkillCard img={GitIcon} title="Git" />
-      <SkillCard img={GithubIcon} title="Github" />
+      <SkillCard img={GithubIcon} title="GitHub" />
       <SkillCard img={SassIcon} title="Sass" />
       <SkillCard img={TailwindIcon} title="Tailwind" />
       <SkillCard img={BootstrapIcon} title="Bootstrap" />
