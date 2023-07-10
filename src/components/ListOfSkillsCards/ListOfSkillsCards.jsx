@@ -13,6 +13,9 @@ import MySQLIcon from "../../assets/skills/mysql-svgrepo-com.svg";
 import ViteIcon from "../../assets/skills/vite-svgrepo-com.svg";
 import WebpackIcon from "../../assets/skills/webpack-svgrepo-com.svg";
 import TailwindIcon from "../../assets/skills/tailwind-svgrepo-com.svg";
+import jQueryIcon from "../../assets/skills/jquery-svgrepo-com.svg";
+import FirebaseIcon from "../../assets/skills/firebase-svgrepo-com.svg";
+import GithubIcon from "../../assets/skills/github-svgrepo-com.svg";
 import { SkillCard } from "../../components/SkillCard/SkillCard";
 
 export function ListOfSkillsCards() {
@@ -23,10 +26,13 @@ export function ListOfSkillsCards() {
       <SkillCard img={ExpressIcon} title="Express" />
       <SkillCard img={MongoDBIcon} title="MongoDB" />
       <SkillCard img={MySQLIcon} title="MySQL" />
+      <SkillCard img={FirebaseIcon} title="Firebase" />
       <SkillCard img={ViteIcon} title="Vite" />
       <SkillCard img={WebpackIcon} title="Webpack" />
       <SkillCard img={JavaScriptIcon} title="JavaScript" />
+      <SkillCard img={jQueryIcon} title="jQuery" />
       <SkillCard img={GitIcon} title="Git" />
+      <SkillCard img={GithubIcon} title="Github" />
       <SkillCard img={SassIcon} title="Sass" />
       <SkillCard img={TailwindIcon} title="Tailwind" />
       <SkillCard img={BootstrapIcon} title="Bootstrap" />
