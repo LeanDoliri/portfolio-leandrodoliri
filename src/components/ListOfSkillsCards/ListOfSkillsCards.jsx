@@ -12,6 +12,7 @@ import SassIcon from "../../assets/skills/sass-svgrepo-com.svg";
 import MySQLIcon from "../../assets/skills/mysql-svgrepo-com.svg";
 import ViteIcon from "../../assets/skills/vite-svgrepo-com.svg";
 import WebpackIcon from "../../assets/skills/webpack-svgrepo-com.svg";
+import TailwindIcon from "../../assets/skills/tailwind-svgrepo-com.svg";
 import { SkillCard } from "../../components/SkillCard/SkillCard";
 
 export function ListOfSkillsCards() {
@@ -27,6 +28,7 @@ export function ListOfSkillsCards() {
       <SkillCard img={JavaScriptIcon} title="JavaScript" />
       <SkillCard img={GitIcon} title="Git" />
       <SkillCard img={SassIcon} title="Sass" />
+      <SkillCard img={TailwindIcon} title="Tailwind" />
       <SkillCard img={BootstrapIcon} title="Bootstrap" />
       <SkillCard img={CssIcon} title="CSS" />
       <SkillCard img={HTMLIcon} title="HTML" />
