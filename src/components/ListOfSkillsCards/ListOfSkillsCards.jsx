@@ -5,6 +5,7 @@ import ExpressIcon from "../../assets/skills/express-svgrepo-com.svg";
 import GitIcon from "../../assets/skills/git-svgrepo-com.svg";
 import HTMLIcon from "../../assets/skills/html-5-svgrepo-com.svg";
 import JavaScriptIcon from "../../assets/skills/javascript-svgrepo-com.svg";
+import TypeScriptIcon from "../../assets/skills/typescript-svgrepo-com.svg";
 import MongoDBIcon from "../../assets/skills/mongo-svgrepo-com.svg";
 import NodeIcon from "../../assets/skills/node-svgrepo-com.svg";
 import ReactIcon from "../../assets/skills/react-svgrepo-com.svg";
@@ -25,11 +26,12 @@ export function ListOfSkillsCards() {
       <SkillCard img={NodeIcon} title="Node Js" />
       <SkillCard img={ExpressIcon} title="Express" />
       <SkillCard img={MongoDBIcon} title="MongoDB" />
+      <SkillCard img={TypeScriptIcon} title="TypeScript" />
+      <SkillCard img={JavaScriptIcon} title="JavaScript" />
       <SkillCard img={MySQLIcon} title="MySQL" />
       <SkillCard img={FirebaseIcon} title="Firebase" />
       <SkillCard img={ViteIcon} title="Vite" />
       <SkillCard img={WebpackIcon} title="Webpack" />
-      <SkillCard img={JavaScriptIcon} title="JavaScript" />
       <SkillCard img={jQueryIcon} title="jQuery" />
       <SkillCard img={GitIcon} title="Git" />
       <SkillCard img={GithubIcon} title="GitHub" />

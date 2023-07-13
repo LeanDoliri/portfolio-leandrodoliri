@@ -1,5 +1,4 @@
 import "./ListOfCertificates.css";
-
 import { CertificateCard } from "./CertificateCard/CertificateCard";
 import "./ListOfCertificates.css";
 import desarrolloWebThumbnail from "../../assets/certificates/desarrolloWeb-certificado.png";
@@ -7,6 +6,7 @@ import javaScriptThumbnail from "../../assets/certificates/javaScript-certificad
 import reactJsThumbnail from "../../assets/certificates/reactJs-certificado.png";
 import programacionBackendThumbnail from "../../assets/certificates/programacionBackendo-certificado.png";
 import responsiveWebDesignThumbnail from "../../assets/certificates/responsiveWebDesign-certificado.png";
+import typescriptThumbnail from "../../assets/certificates/typescript-certificado.jpg";
 import gitThumbnail from "../../assets/certificates/git-certificado.jpg";
 import githubThumbnail from "../../assets/certificates/github-certificado.jpg";
 
@@ -42,6 +42,12 @@ export function ListOfCertificates() {
         title="Responsive Web Design"
         institution="freeCodeCamp"
         link="https://www.freecodecamp.org/espanol/certification/LeandroDoliri/responsive-web-design"
+      />
+      <CertificateCard
+        img={typescriptThumbnail}
+        title="TypeScript"
+        institution="CódigoFacilito"
+        link="https://codigofacilito.com/usuarios/leandoliri"
       />
       <CertificateCard
         img={gitThumbnail}
