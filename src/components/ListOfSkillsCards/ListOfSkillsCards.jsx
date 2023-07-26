@@ -18,6 +18,7 @@ import jQueryIcon from "../../assets/skills/jquery-svgrepo-com.svg";
 import FirebaseIcon from "../../assets/skills/firebase-svgrepo-com.svg";
 import GithubIcon from "../../assets/skills/github-svgrepo-com.svg";
 import WordPressIcon from "../../assets/skills/wordpress-svgrepo-com.svg";
+import FigmaIcon from "../../assets/skills/figma-svgrepo-com.svg";
 import { SkillCard } from "../../components/SkillCard/SkillCard";
 
 export function ListOfSkillsCards() {
@@ -42,6 +43,7 @@ export function ListOfSkillsCards() {
       <SkillCard img={CssIcon} title="CSS" />
       <SkillCard img={HTMLIcon} title="HTML" />
       <SkillCard img={WordPressIcon} title="WordPress" />
+      <SkillCard img={FigmaIcon} title="Figma" />
     </div>
   );
 }
